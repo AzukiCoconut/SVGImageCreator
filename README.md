@@ -18,11 +18,11 @@ This application uses Inquirer to ask the user 4 questions:
 
  Below is a link to a video of the walkthrough of the application:
 
-
+    https://drive.google.com/file/d/17JqcTTH2GVKSaRqM6Kz38sgMfuY_61IT/view
 
  This is a link to the created logo svg image.  
 
-
+    https://github.com/AzukiCoconut/SVGImageCreator/blob/main/examples/logo.svg
 
  ## Credits
 
