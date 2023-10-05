@@ -1,7 +1,9 @@
 const Triangle = require('../lib/triangle.js');
 
+// Tests Triangle Class
 describe('Triangle', () => {
 
+    // Tests Instantiation
     describe('Instantiate', () => {
         test('Should be an instance of the Triangle class', () => {
             const triangle = new Triangle();
@@ -10,6 +12,7 @@ describe('Triangle', () => {
         });
     });
 
+    // Test initialize properties
     describe('Initialize width property', () => {
         test('Should return width property', () => {
             const width = 300;
@@ -28,6 +31,7 @@ describe('Triangle', () => {
         });
     });
 
+    // Test instantiation with color
     describe('Initialize color property', () => {
         test('Should return color property', () => {
             const color = 'red';
@@ -38,6 +42,7 @@ describe('Triangle', () => {
         });
     });
 
+    // Tests setColor Property
     describe('setColor function', () => {
         test('Should return color property when using setColor function', () => {
             const color = 'red';
@@ -48,6 +53,7 @@ describe('Triangle', () => {
         });
     });
 
+    // Tests render function
     describe ('render() function', () => {
         test('should return svg string for triangle', () => {
             const svgTriangle = '<polygon points="150, 0 300, 200 0, 200" fill="red" />';
