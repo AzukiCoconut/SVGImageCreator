@@ -1,7 +1,9 @@
 const Circle = require('../lib/circle.js');
 
+// Test Circle Class
 describe('Circle', () => {
 
+    // Tests instantiation
     describe('Instantiate', () => {
         test('Should be an instance of Circle class', () =>{
             const circle = new Circle();
@@ -10,6 +12,7 @@ describe('Circle', () => {
         });
     });
 
+    // Tests instantiation with color
     describe('Initialize centerX property', () => {
         test('centerX property should be 150', () =>{
             const centerX = 150;
@@ -19,6 +22,7 @@ describe('Circle', () => {
         });
     });
 
+    // Intialize properties
     describe('Initialize centerY property', () => {
         test('centerY property should be 100', () => {
             const centerY = 100;
@@ -36,6 +40,7 @@ describe('Circle', () => {
             expect(circle.radius).toBe(radius);
         });
     });
+
 
     describe('Initialize color', () => {
         test('Should set color property', () => {
@@ -56,6 +61,7 @@ describe('Circle', () => {
         });
     });
 
+    // Test render function
     describe('render() function', () => {
         test('Should return string with variables set', () => {
             const svgCircle = '<circle cx="150" cy="100" r="100" fill="green" />';
